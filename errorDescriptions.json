@@ -1,0 +1,42 @@
+[
+	{
+		"error_code":"NEPOSTOJECA_TABELA",
+		"description":"%s ne postoji u bazi",
+		"suggestion":"Unesi postojecu kolonu/tabelu"
+	},
+	{
+		"error_code":"NIJE_UNETO_OBAVEZNO",
+		"description":"Zaboravljen je obavezan deo za upit %s",
+		"suggestion":"Dovrsi %s upit"
+	},
+	{
+		"error_code":"POGRESAN_REDOSLED",
+		"description":"%s je na pogresnom mestu u upitu",
+		"suggestion":"Prebaci %s na pravilno mesto"
+	},
+	{
+		"error_code":"NIJE_UNET_GROUPBY",
+		"description":"Funkcija %s zahteva GROUP BY",
+		"suggestion":"Unesi GROUP BY"
+	},
+	{
+		"error_code":"ALIAS_NEMA_NAVODNIKE",
+		"description":"Alias nema navodnike",
+		"suggestion":"Dodaj navodnike"
+	},
+	{
+		"error_code":"JOIN_NIJE_STRANI_KLJUC",
+		"description":"Kolona %s nije strani kljuc.",
+		"suggestion":"Upotrebi strani kljuc pri join iskazu"
+	},
+	{
+		"error_code":"WHERE_NEMA_AGREGACIJU",
+		"description":"Iskaz WHERE nema agregaciju",
+		"suggestion":"Dodaj agregaciju"
+	},
+	{
+		"error_code":"CSV_NIJE_VALIDAN",
+		"description":"Struktura CSVa se ne poklapa sa tabelom,kolona %s nije deo tabele %d",
+		"suggestion":"Izmeni strukturu tako da se poklapa"
+	}
+]
